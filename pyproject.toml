@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "masters-course"
+version = "0.1.0"
+description = ""
+authors = ["Brandon Braner <brandon.braner@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^7.4.3"
+black = "^23.12.1"
+ruff = "^0.1.9"
+
+[tool.black]
+line-length = 140
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
